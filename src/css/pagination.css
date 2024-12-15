@@ -28,7 +28,7 @@
   .poison-img{
     width: 102%;
     height: 5em;
-    background-image: url('../public/tocsic-fluids/tocsicfluid.svg');
+    background-image: url('/tocsic-fluids/tocsicfluid.svg');
     background-repeat: no-repeat; /* Tekrar etmeme */
     background-size: cover; /* Tüm alanı kaplama */
     background-position: center;

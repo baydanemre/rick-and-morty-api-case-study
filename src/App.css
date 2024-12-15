@@ -42,7 +42,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: url('../public/giphy.gif');/* Tekrar etmeme *//* Tüm alanı kaplama */
+  background: url('/giphy.gif');/* Tekrar etmeme *//* Tüm alanı kaplama */
   filter: blur(0.3em) opacity(0.2) saturate(1.2);
   
 }
