@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Salsa&display=swap');
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(36, 36, 36, 0.87);
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+input{
+  background-color: #00000000;
+  color: white;
+  border-radius: 0.4em;
+  height: 2em;
+  box-sizing: border-box;
+  border: none;
+  outline: 2px solid rgba(255, 255, 255, 0.222);
+  transition-duration: 0.2s;
+}
+select{
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(190, 190, 190);
+  border: 2px solid #5b5b5b;
+  border-radius: 0.4em; 
+  height: 2em;
+  transition-duration: 0.4s;
+}
+
+select:focus{
+  border: 2px solid #41d71b;
+  border-radius: 0.6em;
+}
+
+input::placeholder{
+  color: rgb(190, 190, 190);
+}
+
+input:focus{
+  outline: 2px solid #41d71b;
+  border-radius: 0.6em;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+p{
+  padding: 0;
+  margin: 0.35em;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 2.5em;
+  font-family: "Lacquer", system-ui;
+  font-weight: bolder;
+  font-style: normal
+
+}
+
+button {
+  height: 3em;
+  width: 6em;
+  background-color: #41d71b;
+  border: none;
+  border-radius: 1em;
+  z-index: 3;
+  color: white;
+}
+button:hover{
+  cursor: pointer;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+

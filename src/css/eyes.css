@@ -1,0 +1,35 @@
+.eye-container {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(245, 24, 24, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pupil {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+  }
+
+  
+  .background {
+    position: relative;
+    z-index: 1; /* Diğer içeriklerin gözlerin altında kalmamasını sağlar */
+  }
+  
+  .eyes-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Gözlerin fare etkileşimlerini engeller */
+    z-index: 2; /* Diğer içeriklerin üstünde ama etkileşimde değil */
+  }
+  
